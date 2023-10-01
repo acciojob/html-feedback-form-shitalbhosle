@@ -11,16 +11,16 @@
 	<h1>Feedback Form</h1>
 	<form action="get">
 		<label for="name">Name</label>
-		<input placeholder="Enter Name" type="text" id="name" minlength="3" maxlength="50" required />
+		<input type="text" id="name" minlength="3" name="name" maxlength="50" required />
 		
 		<label for="portfolio">Portfolio</label>
-		<input placeholder="Enter Portfolio" type="URL" id="portfolio" required />
+		<input placeholder="Enter Portfolio" name="portfolio" type="URL" id="portfolio" required />
 		
 		<label for="favColor">Favorite Color</label>
-		<input type="Color" id="favColor" />
+		<input type="Color" id="favColor" name="favColor" />
 		
 		<label for="likeness">Likeness</label>
-		<input type="Range" min="1" max="100"  id="likeness"/>
+		<input type="Range" min="1" max="100" id="likeness" name="likeness"/>
 		
 	</form>
     <script type="text/javascript" src="./script.js">
